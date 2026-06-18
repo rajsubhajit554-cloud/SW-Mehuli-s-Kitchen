@@ -1,11 +1,11 @@
 :root {
-    --bg-dark: #0f1014;
-    --accent-neon: #00ffcc;
-    --accent-warm: #ff6b6b;
-    --text-primary: #ffffff;
-    --text-secondary: #a0a5b1;
-    --glass-bg: rgba(255, 255, 255, 0.03);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --bg-dark: #130f0d;
+    --accent-neon: #d4a373;
+    --accent-warm: #bc6c25;
+    --text-primary: #fefae0;
+    --text-secondary: #b5a095;
+    --glass-bg: rgba(212, 163, 115, 0.04);
+    --glass-border: rgba(212, 163, 115, 0.15);
 }
 
 * {
@@ -47,10 +47,10 @@ h1, h2, h3, h4, .logo-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(15, 16, 20, 0.8);
+    background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    border-bottom: 1px solid var(--glass-border);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
@@ -61,15 +61,15 @@ h1, h2, h3, h4, .logo-text {
 }
 
 .logo-img {
-    height: 45px;
-    width: 45px;
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+    box-shadow: 0 0 15px rgba(212, 163, 115, 0.3);
 }
 
 .logo-brand-img {
-    height: 40px;
+    height: 80px;
     width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
@@ -87,20 +87,20 @@ h1, h2, h3, h4, .logo-text {
 
 .nav-links a {
     text-decoration: none;
-    color: var(--text-secondary);
-    font-weight: 500;
-    transition: color 0.3s, text-shadow 0.3s;
+    color: #1a1c23;
+    font-weight: 600;
+    transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: var(--accent-neon);
-    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+    color: var(--accent-warm);
 }
 
 .hamburger {
     display: none;
     cursor: pointer;
     font-size: 1.5rem;
+    color: #1a1c23;
 }
 
 /* Hero Section */
@@ -157,7 +157,7 @@ h1, h2, h3, h4, .logo-text {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(15,16,20,0.4), rgba(15,16,20,1));
+    background: linear-gradient(to bottom, rgba(19,15,13,0.4), rgba(19,15,13,1));
     z-index: 3;
 }
 
@@ -173,7 +173,7 @@ h1, h2, h3, h4, .logo-text {
     font-size: 3.2rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    text-shadow: 0 0 20px rgba(0,255,204,0.3);
+    text-shadow: 0 0 20px rgba(212,163,115,0.3);
 }
 
 .hero-content p {
@@ -196,13 +196,13 @@ h1, h2, h3, h4, .logo-text {
     font-size: 1.1rem;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 0 15px rgba(0,255,204,0.1) inset;
+    box-shadow: 0 0 15px rgba(212, 163, 115, 0.1) inset;
 }
 
 .cta-button:hover {
     background: var(--accent-neon);
     color: var(--bg-dark);
-    box-shadow: 0 0 25px rgba(0,255,204,0.6);
+    box-shadow: 0 0 25px rgba(212, 163, 115, 0.5);
     transform: translateY(-3px);
 }
 
@@ -337,7 +337,7 @@ section {
 
 .gallery-item:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 15px 40px rgba(0, 255, 204, 0.2);
+    box-shadow: 0 15px 40px rgba(212, 163, 115, 0.2);
 }
 
 .gallery-item img {
@@ -447,13 +447,13 @@ footer {
         position: absolute;
         top: 70px;
         right: -100%;
-        background: rgba(15, 16, 20, 0.95);
+        background: rgba(255, 255, 255, 0.95);
         backdrop-filter: blur(10px);
         width: 250px;
         height: 100vh;
         padding-top: 2rem;
         transition: right 0.3s ease;
-        border-left: 1px solid var(--glass-border);
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
         align-items: center;
     }
     .nav-links.nav-active {
@@ -463,11 +463,11 @@ footer {
         display: block;
     }
     .logo-brand-img {
-        height: 32px;
+        height: 55px;
     }
     .logo-img {
-        height: 35px;
-        width: 35px;
+        height: 50px;
+        width: 50px;
     }
     .hero-content h1 {
         font-size: 1.8rem;
