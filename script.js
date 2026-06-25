@@ -260,7 +260,7 @@ function closePromoModal() {
             promoModal.classList.remove('active', 'closing');
             promoModalContent.style.removeProperty('--fly-x');
             promoModalContent.style.removeProperty('--fly-y');
-        }, 650); // 650ms match with CSS keyframe animation duration
+        }, 650);
     } else if (promoModal) {
         promoModal.classList.remove('active');
         document.body.classList.remove('no-scroll');
@@ -290,3 +290,5 @@ if (closePromoModalBtn) {
 if (promoModalOverlay) {
     promoModalOverlay.addEventListener('click', closePromoModal);
 }
+
+
