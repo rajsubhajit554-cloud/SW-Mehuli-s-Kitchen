@@ -41,6 +41,8 @@ window.addEventListener('scroll', () => {
     }
 });
 
+
+
 // Reveal Elements on Scroll
 const revealElements = document.querySelectorAll('.reviews-slider-container, .vibe-text, .contact-container');
 
@@ -211,6 +213,8 @@ if (document.readyState === 'loading') {
     initPreloader();
 }
 
+
+
 // FIFA World Cup Restaurant Feast Click-to-Activate Animation
 const soccerCloche = document.getElementById('soccer-cloche');
 const feastAltar = document.getElementById('fifa-feast-altar');
@@ -290,5 +294,4 @@ if (closePromoModalBtn) {
 if (promoModalOverlay) {
     promoModalOverlay.addEventListener('click', closePromoModal);
 }
-
 

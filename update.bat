@@ -1,8 +1,8 @@
 @echo off
-title SW New Coffee House - Auto Git Update
+title SW Mehuli's Kitchen - Auto Git Update
 color 0B
 echo ====================================================
-echo      SW New Coffee House - Auto Update Script
+echo      SW Mehuli's Kitchen - Auto Update Script
 echo ====================================================
 echo.
 
