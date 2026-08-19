@@ -1,4 +1,4 @@
-// Navbar Scroll Effect
+﻿// Navbar Scroll Effect
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
@@ -67,9 +67,14 @@ window.addEventListener('scroll', revealOnScroll);
 // Trigger once on load
 revealOnScroll();
 
-// Banner Image Slider (Fade and Scale Effect)
+// Banner Image Slider (Fade and Scale Effect with Hover Preview & Side Click Zones)
 const bannerImages = document.querySelectorAll('.hero-bg img');
+const leftZone = document.querySelector('.hero-nav-zone.left-zone');
+const rightZone = document.querySelector('.hero-nav-zone.right-zone');
+
 let currentImageIndex = 0;
+let lastDisplayedIndex = -1;
+let bannerInterval;
 
 function updateBannerBg(imgElement) {
     const bannerContainer = document.querySelector('.hero-bg');
@@ -78,34 +83,68 @@ function updateBannerBg(imgElement) {
     }
 }
 
-function rotateBanner() {
-    if (bannerImages.length <= 1) return;
+function transitionToBannerImage(targetIndex) {
+    if (targetIndex === lastDisplayedIndex) return;
+    if (targetIndex < 0 || targetIndex >= bannerImages.length) return;
     
-    const nextIndex = (currentImageIndex + 1) % bannerImages.length;
-    
-    // Remove states from all images first
     bannerImages.forEach(img => {
         img.classList.remove('active', 'prev');
     });
     
-    // Set classes for smooth transition
-    bannerImages[currentImageIndex].classList.add('prev');
-    bannerImages[nextIndex].classList.add('active');
+    if (lastDisplayedIndex !== -1 && lastDisplayedIndex < bannerImages.length) {
+        bannerImages[lastDisplayedIndex].classList.add('prev');
+    }
     
-    updateBannerBg(bannerImages[nextIndex]);
-    
+    bannerImages[targetIndex].classList.add('active');
+    updateBannerBg(bannerImages[targetIndex]);
+    lastDisplayedIndex = targetIndex;
+}
+
+function rotateBanner() {
+    if (bannerImages.length <= 1) return;
+    const nextIndex = (currentImageIndex + 1) % bannerImages.length;
+    transitionToBannerImage(nextIndex);
     currentImageIndex = nextIndex;
 }
 
-if (bannerImages.length > 0) {
-    // Ensure the first image is active on start
-    bannerImages[0].classList.add('active');
-    updateBannerBg(bannerImages[0]);
+// Fixed auto-slide setup to handle reset
+function startBannerTimer() {
+    stopBannerTimer();
     if (bannerImages.length > 1) {
-        setInterval(rotateBanner, 5000); // Change image every 5 seconds
+        bannerInterval = setInterval(rotateBanner, 5000); // Change image every 5 seconds
     }
 }
 
+function stopBannerTimer() {
+    if (bannerInterval) {
+        clearInterval(bannerInterval);
+    }
+}
+
+// Initialize banner
+if (bannerImages.length > 0) {
+    transitionToBannerImage(0);
+    startBannerTimer();
+}
+
+// Add event listeners for navigation zones
+if (leftZone && bannerImages.length > 1) {
+    leftZone.addEventListener('click', () => {
+        const prevIndex = (currentImageIndex - 1 + bannerImages.length) % bannerImages.length;
+        currentImageIndex = prevIndex;
+        transitionToBannerImage(currentImageIndex);
+        startBannerTimer(); // reset auto-slide timer on manual click
+    });
+}
+
+if (rightZone && bannerImages.length > 1) {
+    rightZone.addEventListener('click', () => {
+        const nextIndex = (currentImageIndex + 1) % bannerImages.length;
+        currentImageIndex = nextIndex;
+        transitionToBannerImage(currentImageIndex);
+        startBannerTimer(); // reset auto-slide timer on manual click
+    });
+}
 // Reviews Slider Animation
 const reviewItems = document.querySelectorAll('.reviews-slider .review-slide');
 const reviewDots = document.querySelectorAll('.slider-dots .dot');
@@ -215,7 +254,7 @@ if (document.readyState === 'loading') {
 
 
 
-// Rath Yatra Restaurant Feast Click-to-Activate Animation
+// Independence Day Special Feast Click-to-Activate Animation
 const templeBell = document.getElementById('temple-bell');
 const rathAltar = document.getElementById('rath-feast-altar');
 if (templeBell && rathAltar) {

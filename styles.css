@@ -1,4 +1,4 @@
-/* ============================================================
+﻿/* ============================================================
    MEHULI'S KITCHEN — Modern Restaurant Theme
    ============================================================ */
 
@@ -276,6 +276,48 @@ h1, h2, h3, h4 {
     opacity: 0;
     z-index: 1;
 }
+
+.hero-nav-zone {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    z-index: 5;
+    cursor: pointer;
+    background: transparent;
+    transition: background 0.3s ease;
+}
+
+.hero-nav-zone.left-zone {
+    left: 0;
+}
+
+.hero-nav-zone.right-zone {
+    right: 0;
+}
+
+/* Subtle feedback on hover (no arrow icons) */
+.hero-nav-zone:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+
+
+
+
+
+
+/* Subtle feedback on hover (no arrow icons) */
+
+
+
+
+
+
+
+
+/* Subtle feedback on hover (no arrow icons) */
+
 
 .overlay {
     position: absolute;
@@ -1265,10 +1307,12 @@ footer p::after {
     top: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #ffaa00;
-    text-shadow: 0 0 10px rgba(255, 69, 0, 0.5), 0 0 20px rgba(255, 69, 0, 0.3);
+    font-size: 1.25rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
@@ -1309,18 +1353,18 @@ footer p::after {
 
 
 /* ============================================================
-   INTERACTIVE FIFA CHAMPIONSHIP FEAST STADIUM ALTAR
+   INTERACTIVE INDEPENDENCE DAY SPECIAL ALTAR
    ============================================================ */
 .rath-feast-container {
     position: relative;
     width: 190px;
     height: 190px;
-    background: radial-gradient(circle at center, #660000 0%, #210000 100%);
+    background: radial-gradient(circle at center, #0d1b2a 0%, #050c17 100%);
     border-radius: var(--radius-md);
-    border: 2px solid rgba(255, 170, 0, 0.35);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.75), 
-                inset 0 0 25px rgba(255, 170, 0, 0.15),
-                0 0 10px rgba(255, 170, 0, 0.1);
+    border: 2px solid rgba(255, 153, 51, 0.45);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8), 
+                inset 0 0 25px rgba(19, 136, 8, 0.2),
+                0 0 12px rgba(255, 153, 51, 0.3);
     overflow: hidden;
     cursor: pointer;
     perspective: 500px;
@@ -1330,10 +1374,10 @@ footer p::after {
 }
 
 .rath-feast-container:hover {
-    border-color: rgba(255, 224, 102, 0.65);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8), 
-                inset 0 0 20px rgba(255, 170, 0, 0.25),
-                0 0 18px rgba(255, 170, 0, 0.2);
+    border-color: #FF9933;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.9), 
+                inset 0 0 25px rgba(255, 255, 255, 0.2),
+                0 0 20px rgba(19, 136, 8, 0.4);
 }
 
 .temple-arch {
@@ -1342,7 +1386,7 @@ footer p::after {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    border: 1px dashed rgba(255, 170, 0, 0.2);
+    border: 1px dashed rgba(255, 153, 51, 0.35);
     border-radius: var(--radius-md);
     pointer-events: none;
     z-index: 1;
@@ -1356,7 +1400,7 @@ footer p::after {
     width: 65px;
     height: 78px;
     z-index: 3;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.6));
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.4s ease;
     animation: trophyFloat 3.5s infinite ease-in-out;
 }
@@ -1367,7 +1411,7 @@ footer p::after {
 }
 
 .rath-feast-container.activated .rath-altar-chariot {
-    filter: drop-shadow(0 0 8px #ff4500) drop-shadow(0 0 15px #ffe066);
+    filter: drop-shadow(0 0 8px #FF9933) drop-shadow(0 0 15px #138808);
     animation: trophyVibrate 0.12s infinite linear;
 }
 
@@ -1392,12 +1436,12 @@ footer p::after {
     transform: translateX(-50%);
     z-index: 5;
     cursor: pointer;
-    filter: drop-shadow(0 3px 4px rgba(0,0,0,0.6));
+    filter: drop-shadow(0 3px 6px rgba(0,0,0,0.7));
     transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.5s ease;
 }
 
 .temple-bell:hover {
-    transform: translateX(-50%) scale(1.08);
+    transform: translateX(-50%) scale(1.1);
 }
 
 .temple-bell svg {
@@ -1411,7 +1455,7 @@ footer p::after {
     pointer-events: none;
 }
 
-.rath-prasad-handi {
+.rath-fusion-burger {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -1425,15 +1469,15 @@ footer p::after {
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
 }
 
-.rath-prasad-handi svg {
+.rath-fusion-burger svg {
     width: 100%;
     height: 100%;
 }
 
-.rath-feast-container.activated .rath-prasad-handi {
+.rath-feast-container.activated .rath-fusion-burger {
     opacity: 1;
     transform: translate(-50%, 0) scale(1.2);
-    filter: drop-shadow(0 0 8px #ffe066) drop-shadow(0 0 16px rgba(255, 224, 102, 0.8));
+    filter: drop-shadow(0 0 8px #FF9933) drop-shadow(0 0 16px #138808);
 }
 
 .rath-celebration {
@@ -1442,12 +1486,13 @@ footer p::after {
     left: 50%;
     transform: translate(-50%, -50%) scale(0.7);
     font-family: 'Outfit', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 900;
     color: #ffffff;
     letter-spacing: 1px;
-    text-shadow: 0 0 8px #ff4500, 
-                 0 0 20px #ffe066;
+    text-shadow: 0 0 8px #FF9933, 
+                 0 0 16px #138808,
+                 0 0 24px #000080;
     opacity: 0;
     pointer-events: none;
     z-index: 6;
@@ -1459,11 +1504,6 @@ footer p::after {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
     animation: pulseGoal 0.4s ease-in-out infinite alternate;
-}
-
-@keyframes pulseGoal {
-    0% { transform: translate(-50%, -50%) scale(1); }
-    100% { transform: translate(-50%, -50%) scale(1.15); }
 }
 
 .feast-item {
@@ -1517,9 +1557,10 @@ footer p::after {
         left: -38px;
         animation-name: footballRollAcrossMobile;
     }
-    .rath-yatra-header-text {
-        font-size: 1.05rem;
+        .rath-yatra-header-text {
+        font-size: 0.95rem;
     }
+
 }
 
 /* ============================================================
@@ -1744,3 +1785,15 @@ footer p::after {
         box-shadow: 0 4px 15px rgba(255,255,255,0.8);
     }
 }
+
+
+/* ============================================================
+   ADDED: HERO NAV ZONES (SIDE CLICK & HOVER PREVIEW)
+   ============================================================ */
+
+
+
+
+
+
+/* Subtle feedback on hover (no arrow icons) */
