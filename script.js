@@ -254,7 +254,7 @@ if (document.readyState === 'loading') {
 
 
 
-// Independence Day Special Feast Click-to-Activate Animation
+// Rakhi Purnima Special Feast Click-to-Activate Animation
 const templeBell = document.getElementById('temple-bell');
 const rathAltar = document.getElementById('rath-feast-altar');
 if (templeBell && rathAltar) {
