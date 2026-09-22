@@ -2187,6 +2187,7 @@ footer p {
     scroll-behavior: smooth;
     scroll-snap-type: x proximity;
     -webkit-overflow-scrolling: touch;
+    touch-action: pan-x pan-y;
     padding: 6px 4px 14px;
     width: 100%;
     cursor: grab;
@@ -3332,4 +3333,11 @@ footer p {
         height: 22px;
         font-size: 0.7rem;
     }
+}
+
+/* Mobile touch vertical page scroll compatibility */
+.main-menu-scroll-wrapper,
+.main-menu-scroll-track,
+.main-menu-scroll-track .food-menu-card {
+    touch-action: pan-x pan-y !important;
 }
