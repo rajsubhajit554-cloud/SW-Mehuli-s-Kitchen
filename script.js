@@ -38,7 +38,7 @@ window.addEventListener('scroll', () => {
             navbar.classList.remove('navbar-scrolled');
         }
     }
-});
+}, { passive: true });
 
 // Mobile & Desktop Hamburger Menu Toggle
 const hamburger = document.querySelector('.hamburger');
@@ -75,29 +75,34 @@ window.addEventListener('scroll', () => {
     if (navLinks && navLinks.classList.contains('nav-active')) {
         navLinks.classList.remove('nav-active');
     }
-});
+}, { passive: true });
 
 // Reveal Elements on Scroll
 const revealElements = document.querySelectorAll('.reviews-slider-container, .vibe-text, .contact-container, .main-menu-section');
 
+let revealScheduled = false;
 const revealOnScroll = () => {
-    const windowHeight = window.innerHeight;
-    const elementVisible = 150;
-
-    revealElements.forEach((el) => {
-        const elementTop = el.getBoundingClientRect().top;
-        if (elementTop < windowHeight - elementVisible) {
-            el.style.opacity = '1';
-            el.style.transform = 'translateY(0)';
-            el.style.transition = 'all 0.8s ease-out';
-        } else if (!el.style.opacity) {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(50px)';
-        }
+    if (revealScheduled) return;
+    revealScheduled = true;
+    requestAnimationFrame(() => {
+        revealScheduled = false;
+        const windowHeight = window.innerHeight;
+        const elementVisible = 150;
+        revealElements.forEach((el) => {
+            const elementTop = el.getBoundingClientRect().top;
+            if (elementTop < windowHeight - elementVisible) {
+                el.style.opacity = '1';
+                el.style.transform = 'translateY(0)';
+                el.style.transition = 'opacity 0.7s ease-out, transform 0.7s ease-out';
+            } else if (!el.style.opacity) {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(40px)';
+            }
+        });
     });
 };
 
-window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('scroll', revealOnScroll, { passive: true });
 revealOnScroll();
 
 // Banner Image Slider
@@ -293,31 +298,67 @@ if (mainMenuFilterBtn && mainMenuFilterWrapper) {
 }
 
 if (mainRestaurantMenuScroll) {
-    let isMouseDownMain = false;
+    let isPointerDown = false;
     let startXMain = 0;
     let scrollLeftMain = 0;
+    let velX = 0;
+    let lastX = 0;
+    let lastTime = 0;
+    let momentumId = null;
+    let scrollPauseTimer = null;
+
+    function onMenuScrolling() {
+        mainRestaurantMenuScroll.classList.add('is-scrolling');
+        clearTimeout(scrollPauseTimer);
+        scrollPauseTimer = setTimeout(() => {
+            mainRestaurantMenuScroll.classList.remove('is-scrolling');
+        }, 150);
+    }
+    mainRestaurantMenuScroll.addEventListener('scroll', onMenuScrolling, { passive: true });
 
     mainRestaurantMenuScroll.addEventListener('mousedown', (e) => {
-        isMouseDownMain = true;
-        startXMain = e.pageX - mainRestaurantMenuScroll.offsetLeft;
+        isPointerDown = true;
+        startXMain = e.pageX;
         scrollLeftMain = mainRestaurantMenuScroll.scrollLeft;
+        velX = 0;
+        lastX = e.pageX;
+        lastTime = performance.now();
+        if (momentumId) cancelAnimationFrame(momentumId);
+        mainRestaurantMenuScroll.style.scrollBehavior = 'auto';
+        mainRestaurantMenuScroll.classList.add('is-scrolling');
     });
 
-    mainRestaurantMenuScroll.addEventListener('mouseleave', () => {
-        isMouseDownMain = false;
+    window.addEventListener('mouseup', () => {
+        if (!isPointerDown) return;
+        isPointerDown = false;
+        mainRestaurantMenuScroll.style.scrollBehavior = '';
+        let vel = velX;
+        function glide() {
+            if (Math.abs(vel) < 0.5) {
+                mainRestaurantMenuScroll.classList.remove('is-scrolling');
+                return;
+            }
+            mainRestaurantMenuScroll.scrollLeft -= vel;
+            vel *= 0.92;
+            momentumId = requestAnimationFrame(glide);
+        }
+        momentumId = requestAnimationFrame(glide);
     });
 
-    mainRestaurantMenuScroll.addEventListener('mouseup', () => {
-        isMouseDownMain = false;
-    });
-
-    mainRestaurantMenuScroll.addEventListener('mousemove', (e) => {
-        if (!isMouseDownMain) return;
-        e.preventDefault();
-        const x = e.pageX - mainRestaurantMenuScroll.offsetLeft;
-        const walk = (x - startXMain) * 1.5;
+    window.addEventListener('mousemove', (e) => {
+        if (!isPointerDown) return;
+        const now = performance.now();
+        const dt = now - lastTime || 1;
+        velX = (e.pageX - lastX) / dt * 16;
+        lastX = e.pageX;
+        lastTime = now;
+        const walk = e.pageX - startXMain;
         mainRestaurantMenuScroll.scrollLeft = scrollLeftMain - walk;
     });
+
+    mainRestaurantMenuScroll.addEventListener('touchstart', () => {
+        if (momentumId) cancelAnimationFrame(momentumId);
+    }, { passive: true });
 }
 
 if (inPageMenuTabs.length > 0) {
