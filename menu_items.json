@@ -1,0 +1,1254 @@
+[
+  {
+    "title": "Chicken Biryani",
+    "bengali": "চিকেন বিরিয়ানি",
+    "price": "₹150",
+    "cat": "biryani-rice",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "chicken biryani dum biryani aloo chicken rice bestseller"
+  },
+  {
+    "title": "Egg Biryani",
+    "bengali": "ডিম বিরিয়ানি",
+    "price": "₹100",
+    "cat": "biryani-rice",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "egg biryani dim biryani aloo egg rice"
+  },
+  {
+    "title": "Veg Fried Rice",
+    "bengali": "ভেজ ফ্রাইড রাইস",
+    "price": "₹100",
+    "cat": "biryani-rice",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg fried rice chinese rice vegetables"
+  },
+  {
+    "title": "Veg Hongkong Rice",
+    "bengali": "ভেজ হংকং রাইস",
+    "price": "₹100",
+    "cat": "biryani-rice",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg hongkong rice stir fried veg rice"
+  },
+  {
+    "title": "Chicken Fried Rice",
+    "bengali": "চিকেন ফ্রাইড রাইস",
+    "price": "₹150",
+    "cat": "biryani-rice",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "chicken fried rice chinese nonveg rice"
+  },
+  {
+    "title": "Chicken Schezwan Rice",
+    "bengali": "চিকেন সেজোয়ান রাইস",
+    "price": "₹160",
+    "cat": "biryani-rice",
+    "badge": "special",
+    "badgeText": "Spicy",
+    "kw": "chicken schezwan rice spicy fried rice"
+  },
+  {
+    "title": "Chicken Singapore Rice",
+    "bengali": "চিকেন সিঙ্গাপুর রাইস",
+    "price": "₹160",
+    "cat": "biryani-rice",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken singapore rice yellow aromatic fried rice"
+  },
+  {
+    "title": "Chef Special Rice",
+    "bengali": "শেফ স্পেশাল রাইস",
+    "price": "₹170",
+    "cat": "biryani-rice",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "chef special rice mixed fried rice nonveg"
+  },
+  {
+    "title": "Egg Rice",
+    "bengali": "ডিম রাইস",
+    "price": "₹120",
+    "cat": "biryani-rice",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "egg rice dim fried rice egg tossed"
+  },
+  {
+    "title": "Steamed Rice",
+    "bengali": "স্টিমড রাইস (সাদা ভাত)",
+    "price": "₹70",
+    "cat": "biryani-rice",
+    "badge": "pure-veg",
+    "badgeText": "Plain",
+    "kw": "steamed rice plain rice sada bhat"
+  },
+  {
+    "title": "Jeera Rice",
+    "bengali": "জিরা রাইস",
+    "price": "₹80",
+    "cat": "biryani-rice",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "jeera rice cumin ghee rice"
+  },
+  {
+    "title": "Veg Pulao",
+    "bengali": "ভেজ পোলাও",
+    "price": "₹140",
+    "cat": "biryani-rice",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg pulao sweet fragrant pulao basmati"
+  },
+  {
+    "title": "Extra Rice",
+    "bengali": "এক্সট্রা রাইস",
+    "price": "₹40 / ₹20",
+    "cat": "biryani-rice",
+    "badge": "pure-veg",
+    "badgeText": "Side",
+    "kw": "extra rice portion sada bhat half full 40 20"
+  },
+
+  {
+    "title": "Egg Laccha Roll",
+    "bengali": "এগ লাচ্ছা রোল",
+    "price": "₹50",
+    "cat": "rolls",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "egg laccha roll paratha dim roll street food"
+  },
+  {
+    "title": "Egg Chicken Roll",
+    "bengali": "এগ চিকেন রোল",
+    "price": "₹90",
+    "cat": "rolls",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "egg chicken roll paratha roll murgi dim"
+  },
+  {
+    "title": "Chicken Kathi Roll",
+    "bengali": "চিকেন কাঠি রোল",
+    "price": "₹90",
+    "cat": "rolls",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken kathi roll spicy chicken roll"
+  },
+  {
+    "title": "Chicken Bhuna Roll",
+    "bengali": "চিকেন ভুনা রোল",
+    "price": "₹90",
+    "cat": "rolls",
+    "badge": "special",
+    "badgeText": "Favorite",
+    "kw": "chicken bhuna roll masala chicken spicy"
+  },
+  {
+    "title": "Paneer Roll",
+    "bengali": "পনির রোল",
+    "price": "₹90",
+    "cat": "rolls",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer roll panner veg roll cottage cheese"
+  },
+  {
+    "title": "Chicken Cheese Special Roll",
+    "bengali": "চিকেন চিজ স্পেশাল রোল",
+    "price": "₹100",
+    "cat": "rolls",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "chicken cheese special roll melted cheese roll"
+  },
+  {
+    "title": "Chicken Steamed Momo (6pc)",
+    "bengali": "চিকেন স্টিমড মোমো (৬ পিস)",
+    "price": "₹70",
+    "cat": "rolls",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "chicken steamed momo steam momos soup chutney 6pc"
+  },
+  {
+    "title": "Chicken Fried Momo (6pc)",
+    "bengali": "চিকেন ফ্রায়েড মোমো (৬ পিস)",
+    "price": "₹80",
+    "cat": "rolls",
+    "badge": "special",
+    "badgeText": "Crispy",
+    "kw": "chicken fried momo crispy fried momos 6pc"
+  },
+  {
+    "title": "Chicken Pan-fried Momo (6pc)",
+    "bengali": "চিকেন প্যান-ফ্রায়েড মোমো (৬ পিস)",
+    "price": "₹90",
+    "cat": "rolls",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "chicken pan-fried momo pan fried tossed sauce 6pc"
+  },
+
+  {
+    "title": "Veg Manchurian (8pc)",
+    "bengali": "ভেজ মাঞ্চুরিয়ান (৮ পিস)",
+    "price": "₹120",
+    "cat": "starters",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg manchurian starter chinese veg 8pc"
+  },
+  {
+    "title": "Paneer Chili",
+    "bengali": "পনির চিলি",
+    "price": "₹150",
+    "cat": "starters",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer chili chilli veg chinese starter"
+  },
+  {
+    "title": "Paneer 65",
+    "bengali": "পনির ৬৫",
+    "price": "₹150",
+    "cat": "starters",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer 65 spicy fry cottage cheese"
+  },
+  {
+    "title": "Paneer Pakora",
+    "bengali": "পনির পকোড়া",
+    "price": "₹130",
+    "cat": "starters",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer pakora veg snack crispy fry pakoda"
+  },
+  {
+    "title": "Panko Fish Fry (1pc)",
+    "bengali": "প্যাঙ্কো ফিশ ফ্রাই (১ পিস)",
+    "price": "₹160",
+    "cat": "starters",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "panko fish fry bhetki macher fry crispy 1pc 1 pc"
+  },
+  {
+    "title": "Fish Finger (6pc)",
+    "bengali": "ফিশ ফিঙ্গার (৬ পিস)",
+    "price": "₹160",
+    "cat": "starters",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "fish finger macher finger seafood fry 6pc 6 pcs"
+  },
+  {
+    "title": "Chicken Pakora (6pc)",
+    "bengali": "চিকেন পকোড়া (৬ পিস)",
+    "price": "₹150",
+    "cat": "starters",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "chicken pakora crunchy murgi snack fry 6pc 6 pcs"
+  },
+  {
+    "title": "Crunchy Chicken Finger (8pc)",
+    "bengali": "ক্রাঞ্চি চিকেন ফিঙ্গার (৮ পিস)",
+    "price": "₹160",
+    "cat": "starters",
+    "badge": "special",
+    "badgeText": "Crunchy",
+    "kw": "crunchy chicken finger snack fry strips 8pc 8 pcs"
+  },
+  {
+    "title": "Chicken Nuggets (6pc)",
+    "bengali": "চিকেন নাগেটস (৬ পিস)",
+    "price": "₹150",
+    "cat": "starters",
+    "badge": "special",
+    "badgeText": "Snack",
+    "kw": "chicken nuggets kids snack bites fry 6pc 6 pcs"
+  },
+  {
+    "title": "Omelet",
+    "bengali": "ওমলেট / ডিম ভাজা",
+    "price": "₹20 / ₹40",
+    "cat": "starters",
+    "badge": "popular",
+    "badgeText": "Breakfast",
+    "kw": "egg omelet omelette dim breakfast single double 20 40"
+  },
+
+  {
+    "title": "Paneer Tikka Kabab (4pc)",
+    "bengali": "পনির টিক্কা কাবাব (৪ পিস)",
+    "price": "₹170",
+    "cat": "tandoori",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer tikka kabab kebab tandoori veg 4pc"
+  },
+  {
+    "title": "Paneer Banjara Kabab",
+    "bengali": "পনির বাঞ্জারা কাবাব",
+    "price": "₹170",
+    "cat": "tandoori",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer banjara kabab kebab tandoori veg"
+  },
+  {
+    "title": "Paneer Reshmi Kabab",
+    "bengali": "পনির রেশমি কাবাব",
+    "price": "₹170",
+    "cat": "tandoori",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer reshmi kabab kebab creamy tandoori"
+  },
+  {
+    "title": "Tandoori Chicken",
+    "bengali": "তন্দুরি চিকেন (হাফ/ফুল)",
+    "price": "₹250 / ₹480",
+    "cat": "tandoori",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "tandoori chicken murgi clay oven half full 250 480"
+  },
+  {
+    "title": "Chicken Tikka Kabab (6pc)",
+    "bengali": "চিকেন টিক্কা কাবাব (৬ পিস)",
+    "price": "₹170",
+    "cat": "tandoori",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "chicken tikka kabab kebab tandoori 6pc 6 pcs"
+  },
+  {
+    "title": "Chicken Reshmi Kabab (6pc)",
+    "bengali": "চিকেন রেশমি কাবাব (৬ পিস)",
+    "price": "₹200",
+    "cat": "tandoori",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken reshmi kabab kebab creamy silken 6pc 6 pcs"
+  },
+  {
+    "title": "Chicken Malai Kabab",
+    "bengali": "চিকেন মালাই কাবাব",
+    "price": "₹210",
+    "cat": "tandoori",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken malai kabab kebab creamy rich malai"
+  },
+  {
+    "title": "Chicken Hariyali Kabab (6pc)",
+    "bengali": "চিকেন হরিয়ালি কাবাব (৬ পিস)",
+    "price": "₹220",
+    "cat": "tandoori",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken hariyali kabab kebab green mint coriander 6pc"
+  },
+  {
+    "title": "Nazrana Seekh Kabab (6pc)",
+    "bengali": "নাজরানা সিখ কাবাব (৬ পিস)",
+    "price": "₹210",
+    "cat": "tandoori",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "nazrana seekh kabab kebab minced chicken grilled 6pc"
+  },
+  {
+    "title": "Dahi Lahsuni Chicken Kabab (6pc)",
+    "bengali": "দহি লাসুনি চিকেন কাবাব (৬ পিস)",
+    "price": "₹210",
+    "cat": "tandoori",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "dahi lahsuni chicken kabab garlic curd kebab 6pc"
+  },
+  {
+    "title": "Chef Special Chicken Kabab (6pc)",
+    "bengali": "শেফ স্পেশাল চিকেন কাবাব (৬ পিস)",
+    "price": "₹230",
+    "cat": "tandoori",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "chef special chicken kabab kebab house special 6pc"
+  },
+  {
+    "title": "Fish Tikka (4pc)",
+    "bengali": "ফিশ টিক্কা (৪ পিস)",
+    "price": "₹230",
+    "cat": "tandoori",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "fish tikka macher tikka bhetki tandoori fish 4pc"
+  },
+
+  {
+    "title": "Veg Hakka Noodles",
+    "bengali": "ভেজ হাক্কা নুডলস",
+    "price": "₹100",
+    "cat": "chinese",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg hakka noodles chowmein chinese vegetarian"
+  },
+  {
+    "title": "Veg Schezwan Noodles",
+    "bengali": "ভেজ সেজোয়ান নুডলস",
+    "price": "₹110",
+    "cat": "chinese",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg schezwan noodles spicy chowmein vegetarian"
+  },
+  {
+    "title": "Veg Hongkong Noodles",
+    "bengali": "ভেজ হংকং নুডলস",
+    "price": "₹110",
+    "cat": "chinese",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg hongkong noodles stir fry noodles vegetarian"
+  },
+  {
+    "title": "Egg Hakka Noodles",
+    "bengali": "এগ হাক্কা নুডলস",
+    "price": "₹120",
+    "cat": "chinese",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "egg hakka noodles dim chowmein egg noodles"
+  },
+  {
+    "title": "Chicken Hakka Noodles",
+    "bengali": "চিকেন হাক্কা নুডলস",
+    "price": "₹140",
+    "cat": "chinese",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "chicken hakka noodles murgi chowmein chinese"
+  },
+  {
+    "title": "Chicken Hongkong Noodles",
+    "bengali": "চিকেন হংকং নুডলস",
+    "price": "₹150",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken hongkong noodles stir fried noodles nonveg"
+  },
+  {
+    "title": "Chicken Schezwan Hakka Noodles",
+    "bengali": "চিকেন সেজোয়ান হাক্কা নুডলস",
+    "price": "₹150",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Spicy",
+    "kw": "chicken schezwan hakka noodles spicy chinese noodles"
+  },
+  {
+    "title": "Chicken Singapore Noodles",
+    "bengali": "চিকেন সিঙ্গাপুর নুডলস",
+    "price": "₹150",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken singapore noodles curry flavor yellow chow"
+  },
+  {
+    "title": "Chef Special Noodles",
+    "bengali": "শেফ স্পেশাল নুডলস",
+    "price": "₹160",
+    "cat": "chinese",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "chef special noodles mixed meat egg chicken chowmein"
+  },
+  {
+    "title": "Chicken Chili (6pc)",
+    "bengali": "চিকেন চিলি (৬ পিস)",
+    "price": "₹160",
+    "cat": "chinese",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "chicken chili chilli gravy dry chinese 6pc"
+  },
+  {
+    "title": "Chicken Manchurian (6pc)",
+    "bengali": "চিকেন মাঞ্চুরিয়ান (৬ পিস)",
+    "price": "₹160",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken manchurian sauce chinese main 6pc"
+  },
+  {
+    "title": "Chili Wings (6pc)",
+    "bengali": "চিলি উইংস (৬ পিস)",
+    "price": "₹170",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Spicy",
+    "kw": "chili wings chicken wings spicy saucy 6pc"
+  },
+  {
+    "title": "Chili Fish (6pc)",
+    "bengali": "চিলি ফিশ (৬ পিস)",
+    "price": "₹170",
+    "cat": "chinese",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "chili fish macher chilli bhetki fish 6pc"
+  },
+  {
+    "title": "Crispy Chicken",
+    "bengali": "ক্রিস্পি চিকেন",
+    "price": "₹180",
+    "cat": "chinese",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "crispy chicken fried tossed starter chinese"
+  },
+  {
+    "title": "Chicken 65 (6pc)",
+    "bengali": "চিকেন ৬৫ (৬ পিস)",
+    "price": "₹160",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken 65 spicy south indian chinese starter 6pc"
+  },
+  {
+    "title": "Garlic Chicken (6pc)",
+    "bengali": "গার্লিক চিকেন (৬ পিস)",
+    "price": "₹160",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "garlic chicken rasun murgi gravy 6pc"
+  },
+  {
+    "title": "Hongkong Chicken (6pc)",
+    "bengali": "হংকং চিকেন (৬ পিস)",
+    "price": "₹180",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "hongkong chicken sweet savory chinese 6pc"
+  },
+  {
+    "title": "Hunan Chicken",
+    "bengali": "হুনান চিকেন",
+    "price": "₹170",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Spicy",
+    "kw": "hunan chicken spicy stir fry chinese gravy"
+  },
+  {
+    "title": "Dragon Chicken",
+    "bengali": "ড্রাগন চিকেন",
+    "price": "₹180",
+    "cat": "chinese",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "dragon chicken cashew red spicy strips"
+  },
+  {
+    "title": "Western Chicken",
+    "bengali": "ওয়েস্টার্ন চিকেন",
+    "price": "₹180",
+    "cat": "chinese",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "western chicken continental fusion style"
+  },
+  {
+    "title": "Steam Fish",
+    "bengali": "স্টিম ফিশ",
+    "price": "₹250",
+    "cat": "chinese",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "steam fish healthy steamed fish soy ginger garlic"
+  },
+  {
+    "title": "Special Fish",
+    "bengali": "স্পেশাল ফিশ",
+    "price": "₹240",
+    "cat": "chinese",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "special fish chef fish recipe seafood"
+  },
+
+  {
+    "title": "Chicken Kasha (4pc)",
+    "bengali": "চিকেন কষা (৪ পিস)",
+    "price": "₹90 / ₹160",
+    "cat": "nonveg-main",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "chicken kasha kosha murgi spicy bengali curry 4pc 90 160"
+  },
+  {
+    "title": "Chicken Do-Pyaza (4pc)",
+    "bengali": "চিকেন দো-পেঁয়াজা (৪ পিস)",
+    "price": "₹160",
+    "cat": "nonveg-main",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken do-pyaza pyaz murgi curry 4pc"
+  },
+  {
+    "title": "Chicken Kadai (4pc)",
+    "bengali": "কড়াই চিকেন (৪ পিস)",
+    "price": "₹160",
+    "cat": "nonveg-main",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken kadai karahi chicken capsicum 4pc"
+  },
+  {
+    "title": "Chicken Bharta",
+    "bengali": "চিকেন ভর্তা",
+    "price": "₹190",
+    "cat": "nonveg-main",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "chicken bharta shredded chicken egg creamy gravy"
+  },
+  {
+    "title": "Chicken Lahori (4pc)",
+    "bengali": "চিকেন লাহোরি (৪ পিস)",
+    "price": "₹170",
+    "cat": "nonveg-main",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken lahori rich thick spicy curry 4pc"
+  },
+  {
+    "title": "Chicken Kolhapuri (4pc)",
+    "bengali": "চিকেন কোলহাপুরি (৪ পিস)",
+    "price": "₹160",
+    "cat": "nonveg-main",
+    "badge": "special",
+    "badgeText": "Spicy",
+    "kw": "chicken kolhapuri spicy red curry 4pc"
+  },
+  {
+    "title": "Butter Chicken",
+    "bengali": "বাটার চিকেন",
+    "price": "₹180",
+    "cat": "nonveg-main",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "butter chicken murgh makhani creamy rich sweet tomato"
+  },
+  {
+    "title": "Chicken Tikka Masala",
+    "bengali": "চিকেন  টিক্কা মশলা",
+    "price": "₹170",
+    "cat": "nonveg-main",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "chicken tikka masala tandoori boneless gravy"
+  },
+  {
+    "title": "Murgh Musallam",
+    "bengali": "মুর্গ মুসল্লম",
+    "price": "₹340",
+    "cat": "nonveg-main",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "murgh musallam royal mughlai full chicken egg gravy"
+  },
+  {
+    "title": "Chicken Angara (4pc)",
+    "bengali": "চিকেন অঙ্গারা (৪ পিস)",
+    "price": "₹160",
+    "cat": "nonveg-main",
+    "badge": "special",
+    "badgeText": "Smoky",
+    "kw": "chicken angara smoky spicy gravy 4pc"
+  },
+  {
+    "title": "Chicken Patiala",
+    "bengali": "চিকেন পাতিয়ালা",
+    "price": "₹240",
+    "cat": "nonveg-main",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "chicken patiala egg wrap rich gravy"
+  },
+  {
+    "title": "Chicken Tadka",
+    "bengali": "চিকেন তড়কা",
+    "price": "₹170",
+    "cat": "nonveg-main",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "chicken tadka murgi tadka dhaba style dal"
+  },
+  {
+    "title": "Mutton Kasha (2pc)",
+    "bengali": "মাটন কষা (২ পিস)",
+    "price": "₹180",
+    "cat": "nonveg-main",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "mutton kasha kosha mangsho spicy goat meat 2pc"
+  },
+  {
+    "title": "Mutton Masala (2pc)",
+    "bengali": "মাটন মশলা (২ পিস)",
+    "price": "₹180",
+    "cat": "nonveg-main",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "mutton masala rich gravy mangsho 2pc"
+  },
+  {
+    "title": "Mutton Rogan Josh (2pc)",
+    "bengali": "মাটন রোগন জোশ (২ পিস)",
+    "price": "₹180",
+    "cat": "nonveg-main",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "mutton rogan josh kashmiri mutton curry 2pc"
+  },
+
+  {
+    "title": "Egg Curry (2pc)",
+    "bengali": "ডিমের কারি (২ পিস)",
+    "price": "₹70",
+    "cat": "fish-egg",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "egg curry dim curry dimer dalna 2pc"
+  },
+  {
+    "title": "Egg Masala (2pc)",
+    "bengali": "ডিম মশলা (২ পিস)",
+    "price": "₹80",
+    "cat": "fish-egg",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "egg masala spicy dim gravy 2pc"
+  },
+  {
+    "title": "Egg Tadka",
+    "bengali": "এগ তড়কা (ফুল / হাফ)",
+    "price": "₹100 / ₹60",
+    "cat": "fish-egg",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "egg tadka dim tadka dhaba style half full 100 60"
+  },
+  {
+    "title": "Tawa Fish",
+    "bengali": "তাওয়া ফিশ",
+    "price": "₹220",
+    "cat": "fish-egg",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "tawa fish shallow fry masala macher tawa"
+  },
+  {
+    "title": "Katla Fish Curry",
+    "bengali": "কাতলা মাছের কারি",
+    "price": "₹80",
+    "cat": "fish-egg",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "katla fish curry macher jhol bengali fish"
+  },
+  {
+    "title": "Special Fish Curry (2pc)",
+    "bengali": "স্পেশাল মাছের কারি (২ পিস)",
+    "price": "₹130",
+    "cat": "fish-egg",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "special fish curry macher jhol 2pc"
+  },
+  {
+    "title": "Fish Curry Basa (4pc)",
+    "bengali": "ফিশ কারি বাসা (৪ পিস)",
+    "price": "₹230",
+    "cat": "fish-egg",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "fish curry basa macher curry boneless fish 4pc"
+  },
+
+  {
+    "title": "Dal Fry",
+    "bengali": "ডাল ফ্রাই",
+    "price": "₹110",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "dal fry yellow dal tadka desi ghee"
+  },
+  {
+    "title": "Dal Tadka",
+    "bengali": "ডাল তড়কা",
+    "price": "₹120",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "dal tadka yellow dal garlic jeera tadka"
+  },
+  {
+    "title": "Veg Tadka",
+    "bengali": "ভেজ তড়কা",
+    "price": "₹90",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg tadka dhaba style green moong dal"
+  },
+  {
+    "title": "Chana Masala",
+    "bengali": "চানা মশলা",
+    "price": "₹130",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "chana masala punjabi chole spicy chickpea"
+  },
+  {
+    "title": "Paneer Tikka Masala",
+    "bengali": "পনির টিক্কা মশলা",
+    "price": "₹170",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer tikka masala grilled paneer rich gravy"
+  },
+  {
+    "title": "Paneer Butter Masala",
+    "bengali": "পনির বাটার মশলা",
+    "price": "₹160",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer butter masala creamy makhani sweet gravy"
+  },
+  {
+    "title": "Paneer Do-Pyaza",
+    "bengali": "পনির দো-পেঁয়াজা",
+    "price": "₹160",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer do-pyaza onion rich gravy cottage cheese"
+  },
+  {
+    "title": "Kadai Paneer",
+    "bengali": "কড়াই পনির",
+    "price": "₹160",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "kadai paneer capsicum tomato coriander gravy"
+  },
+  {
+    "title": "Paneer Lahori",
+    "bengali": "পনির লাহোরি",
+    "price": "₹160",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer lahori rich spicy thick gravy"
+  },
+  {
+    "title": "Paneer Makhani",
+    "bengali": "পনির মাখানি",
+    "price": "₹160",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "paneer makhani butter cashew creamy curry"
+  },
+  {
+    "title": "Veg Lajawab",
+    "bengali": "ভেজ লাজবাব",
+    "price": "₹150",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg lajawab mixed vegetable special curry"
+  },
+  {
+    "title": "Mix Veg",
+    "bengali": "মিক্স ভেজ",
+    "price": "₹140",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "mix veg mixed vegetables seasonal curry"
+  },
+  {
+    "title": "Veg Kolhapuri",
+    "bengali": "ভেজ কোলহাপুরি",
+    "price": "₹140",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg kolhapuri spicy maharashtrian curry"
+  },
+  {
+    "title": "Veg Thali",
+    "bengali": "ভেজ থালি",
+    "price": "₹70",
+    "cat": "veg-main",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "veg thali complete meal bhat dal sobji thali 70"
+  },
+
+  {
+    "title": "Tawa Roti",
+    "bengali": "তাওয়া রুটি",
+    "price": "₹10",
+    "cat": "breads",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "tawa roti handmade phulka chapati"
+  },
+  {
+    "title": "Tandoori Roti",
+    "bengali": "তন্দুরি রুটি",
+    "price": "₹20",
+    "cat": "breads",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "tandoori roti clay oven wheat roti"
+  },
+  {
+    "title": "Butter Naan",
+    "bengali": "বাটার নান",
+    "price": "₹40",
+    "cat": "breads",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "butter naan tandoori flatbread butter"
+  },
+  {
+    "title": "Plain Naan",
+    "bengali": "প্লেন নান",
+    "price": "₹35",
+    "cat": "breads",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "plain naan tandoori flatbread"
+  },
+  {
+    "title": "Laccha Paratha",
+    "bengali": "লাচ্ছা পরোটা",
+    "price": "₹40",
+    "cat": "breads",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "laccha paratha layered flaky paratha"
+  },
+  {
+    "title": "Garlic Naan",
+    "bengali": "গার্লিক নান",
+    "price": "₹60",
+    "cat": "breads",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "garlic naan rasun butter naan"
+  },
+  {
+    "title": "Cheese Garlic Naan",
+    "bengali": "চিজ গার্লিক নান",
+    "price": "₹70",
+    "cat": "breads",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "cheese garlic naan loaded melted cheese naan"
+  },
+  {
+    "title": "Masala Kulcha",
+    "bengali": "মশলা কুলচা",
+    "price": "₹80",
+    "cat": "breads",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "masala kulcha stuffed spicy flatbread"
+  },
+  {
+    "title": "Alu Paratha",
+    "bengali": "আলু পরোটা",
+    "price": "₹80",
+    "cat": "breads",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "alu paratha potato stuffed paratha"
+  },
+  {
+    "title": "Paneer Paratha",
+    "bengali": "পনির পরোটা",
+    "price": "₹100",
+    "cat": "breads",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "paneer paratha cottage cheese stuffed paratha"
+  },
+  {
+    "title": "Kashmiri Naan",
+    "bengali": "কাশ্মীরি নান",
+    "price": "₹100",
+    "cat": "breads",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "kashmiri naan sweet dry fruit cherry naan"
+  },
+
+  {
+    "title": "Chicken Manchow Soup",
+    "bengali": "চিকেন মানচাও স্যুপ",
+    "price": "₹90 / ₹80",
+    "cat": "soup",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "chicken manchow soup crispy noodles chinese hot soup"
+  },
+  {
+    "title": "Chicken Hot and sour Soup",
+    "bengali": "চিকেন হট অ্যান্ড সোর স্যুপ",
+    "price": "₹90 / ₹80",
+    "cat": "soup",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "chicken hot and sour soup spicy tangy chinese soup"
+  },
+  {
+    "title": "French onion Soup",
+    "bengali": "ফ্রেঞ্চ অনিয়ন স্যুপ",
+    "price": "₹90 / ₹80",
+    "cat": "soup",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "french onion soup caramelized onion broth soup"
+  },
+  {
+    "title": "Chicken lung fung Soup",
+    "bengali": "চিকেন লুং ফাং স্যুপ",
+    "price": "₹100 / ₹110",
+    "cat": "soup",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken lung fung soup egg drop thick soup"
+  },
+  {
+    "title": "Chicken tom yum Soup",
+    "bengali": "চিকেন টম ইয়াম স্যুপ",
+    "price": "₹90 / ₹100",
+    "cat": "soup",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken tom yum soup thai herbal sour spicy soup"
+  },
+  {
+    "title": "Chicken Coriander Soup",
+    "bengali": "চিকেন ধনেপাতা স্যুপ",
+    "price": "₹90 / ₹100",
+    "cat": "soup",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "chicken coriander soup lemon fresh herbs broth"
+  },
+
+  {
+    "title": "Blue Lagoon Mocktail",
+    "bengali": "ব্লু লেগুন মকটেল",
+    "price": "₹90",
+    "cat": "beverages",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "blue lagoon mocktail blue curacao refreshing cold drink"
+  },
+  {
+    "title": "Mojito Mocktail",
+    "bengali": "মোহিতো মকটেল",
+    "price": "₹100",
+    "cat": "beverages",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "mojito mocktail mint lime refreshing soda mocktail"
+  },
+  {
+    "title": "Triple Virgin Mocktail",
+    "bengali": "ট্রিপল ভার্জিন মকটেল",
+    "price": "₹110",
+    "cat": "beverages",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "triple virgin mocktail three layer fruity mocktail"
+  },
+  {
+    "title": "Lassi",
+    "bengali": "লস্যি",
+    "price": "₹40",
+    "cat": "beverages",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "lassi sweet curd dahi cold drink"
+  },
+  {
+    "title": "Sex on the Beach",
+    "bengali": "সেক্স অন দ্য বিচ মকটেল",
+    "price": "₹110",
+    "cat": "beverages",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "sex on the beach cranberry orange fruity mocktail"
+  },
+  {
+    "title": "Summer Cool",
+    "bengali": "সামার কুল মকটেল",
+    "price": "₹110",
+    "cat": "beverages",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "summer cool refreshing chilling mocktail"
+  },
+  {
+    "title": "Pina Colada",
+    "bengali": "পিনা কোলাডা",
+    "price": "₹110",
+    "cat": "beverages",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "pina colada coconut pineapple tropical drink"
+  },
+  {
+    "title": "Masala Cold Drinks",
+    "bengali": "মশলা কোল্ড ড্রিঙ্কস",
+    "price": "₹40",
+    "cat": "beverages",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "masala cold drinks chatpata spicy soda"
+  },
+  {
+    "title": "Fresh Lime Soda",
+    "bengali": "ফ্রেশ লাইম সোডা",
+    "price": "₹40",
+    "cat": "beverages",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "fresh lime soda sweet salt nimbu pani"
+  },
+  {
+    "title": "Mehuli's Special Mocktail",
+    "bengali": "মেহুলিস স্পেশাল মকটেল",
+    "price": "₹120",
+    "cat": "beverages",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "mehuli special mocktail signature drink"
+  },
+  {
+    "title": "Soda",
+    "bengali": "সোডা",
+    "price": "₹40",
+    "cat": "beverages",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "soda club soda sparkling water"
+  },
+  {
+    "title": "Cold Drinks",
+    "bengali": "কোল্ড ড্রিঙ্কস",
+    "price": "₹60",
+    "cat": "beverages",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "cold drinks soft drink thumsup sprite coke"
+  },
+  {
+    "title": "Mineral Water",
+    "bengali": "মিনারেল ওয়াটার",
+    "price": "₹20",
+    "cat": "beverages",
+    "badge": "pure-veg",
+    "badgeText": "Pure Veg",
+    "kw": "mineral water packaged drinking water bottle"
+  },
+  {
+    "title": "Tea",
+    "bengali": "চা",
+    "price": "₹10",
+    "cat": "beverages",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "tea hot tea cha regular cup"
+  },
+  {
+    "title": "Lemon Tea",
+    "bengali": "লেমন টি (লেবু চা)",
+    "price": "₹10",
+    "cat": "beverages",
+    "badge": "popular",
+    "badgeText": "Popular",
+    "kw": "lemon tea lebu cha hot black tea lemon"
+  },
+  {
+    "title": "Milk Tea",
+    "bengali": "মিল্ক টি (দুধ চা)",
+    "price": "₹20",
+    "cat": "beverages",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "milk tea dudh cha hot beverage"
+  },
+  {
+    "title": "Coffee",
+    "bengali": "কফি",
+    "price": "₹40",
+    "cat": "beverages",
+    "badge": "bestseller",
+    "badgeText": "Bestseller",
+    "kw": "coffee hot coffee milk coffee"
+  },
+  {
+    "title": "Black Coffee",
+    "bengali": "ব্ল্যাক কফি",
+    "price": "₹30",
+    "cat": "beverages",
+    "badge": "special",
+    "badgeText": "Special",
+    "kw": "black coffee hot espresso americano"
+  },
+  {
+    "title": "Kesar Milk Tea",
+    "bengali": "কেসর মিল্ক টি (জাফরান দুধ চা)",
+    "price": "₹30",
+    "cat": "beverages",
+    "badge": "chef",
+    "badgeText": "Chef Special",
+    "kw": "kesar milk tea saffron tea premium chai"
+  }
+]

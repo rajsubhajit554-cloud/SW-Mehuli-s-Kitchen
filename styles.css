@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    MEHULI'S KITCHEN — Modern Restaurant Theme
    ============================================================ */
 
@@ -2313,8 +2313,25 @@ footer p {
     overflow: hidden;
     margin-bottom: 8px;
     border: 1.5px solid rgba(201, 162, 75, 0.25);
-    background: #0d0d0d;
+    background: radial-gradient(circle at center, rgba(201, 162, 75, 0.08) 0%, rgba(13, 13, 13, 0.95) 70%);
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-card-img-box:empty::before {
+    content: '\f2e7';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: rgba(201, 162, 75, 0.25);
+    transition: all 0.3s ease;
+}
+
+.food-menu-card:hover .food-card-img-box:empty::before {
+    color: rgba(201, 162, 75, 0.65);
+    transform: scale(1.15) rotate(6deg);
 }
 
 .food-card-img-box img {
